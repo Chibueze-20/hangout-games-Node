@@ -17,6 +17,9 @@ module.exports = {
       response: {
         type: Sequelize.STRING
       },
+      session:{
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
